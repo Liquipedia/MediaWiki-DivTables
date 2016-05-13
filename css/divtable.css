@@ -1,0 +1,15 @@
+.div-table {
+	display:table;
+}
+.div-table-row {
+	display:table-row;
+}
+.div-table-cell {
+	display:table-cell;
+}
+.div-table-cell-header {
+	font-weight:bold;
+}
+.div-table-cell-caption {
+	display:table-caption;
+}

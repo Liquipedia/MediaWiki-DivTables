@@ -1,0 +1,38 @@
+{
+	"name": "DivTables",
+	"version": "1.0",
+	"author": [
+		"Alex Winkler"
+	],
+	"url": "http://wiki.teamliquid.net/",
+	"descriptionmsg": "Changes the parser to render pages with div-tables instead of normal tables.",
+	"license-name": "GPL-2.0+",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.25.0"
+	},
+	"AutoloadClasses": {
+		"DivTablesHooks": "DivTablesHooks.php"
+	},
+	"Hooks": {
+		"ParserBeforeStrip": [
+			"DivTablesHooks::onParserBeforeStrip"
+		],
+		"BeforePageDisplay": [
+			"DivTablesHooks::onBeforePageDisplay"
+		]
+	},
+	"ResourceModules": {
+		"ext.divtables": {
+			"styles": [
+				"css/divtable.css"
+			],
+			"position": "top"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "DivTables"
+	},
+	"manifest_version": 1
+}
