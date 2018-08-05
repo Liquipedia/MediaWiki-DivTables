@@ -1,7 +1,7 @@
 LiquiFlow DivTables
 ===================
 
-MediaWiki Extension for Liquipedia, changes the parser to render pages with div-tables instead of normal tables when usiong the mediawiki table syntax. Does not support colspan and rowspan.
+MediaWiki Extension for Liquipedia, changes the parser to render pages with div-tables instead of normal tables when using the MediaWiki table syntax. Does not support colspan and rowspan.
 
 Installation
 ============
